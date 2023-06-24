@@ -1,9 +1,12 @@
-import Image from 'next/image'
+import About from "./components/About/Page";
+import Contact from "./components/Contact/page"
+
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Hello
-    </main>
+    <>
+    <About />
+    <Contact />
+    </>
   )
 }
